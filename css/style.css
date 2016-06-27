@@ -1,5 +1,37 @@
 body{
 	background-color: LightGray;
 }
-div{border: 1px solid Chocolate: 
+div{
+	border: 1px solid Chocolate;
+}
+
+img{
+	max-width: 2%;
+	display: inline-block;
+	border: 1px solid Chocolate;
+	margin-left: 20%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+
+}
+
+li{
+	
+	display: inline-block;
+	padding: 1em;
+	
+	
+
+}
+a{
+	text-decoration: none;
+	color: #2E2B20;
+}
+.links{
+	float: right;
+	border: 1px solid Chocolate;
+	margin-right: 20%;
+}
+.content{
+	background-color: #fff;
 }
