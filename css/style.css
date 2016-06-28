@@ -10,11 +10,11 @@ body{
 	padding-bottom: 1em;
 }
 
-.nav-links>li{
+.nav-links > li{
 	display: inline-block;
 	padding: 1em;
 }
-.nav-link{
+.nav-links li a{
 	text-decoration: none;
 	color: #666046;
 }
