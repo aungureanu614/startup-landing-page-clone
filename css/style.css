@@ -2,7 +2,7 @@ body{
 	background-color: LightGray;
 }
 
-img{
+.logo{
 	max-width: 2%;
 	display: inline-block;
 	margin-left: 20%;
@@ -10,11 +10,11 @@ img{
 	padding-bottom: 1em;
 }
 
-li{
+.links>li{
 	display: inline-block;
 	padding: 1em;
 }
-a{
+.nav-link{
 	text-decoration: none;
 	color: #666046;
 }
