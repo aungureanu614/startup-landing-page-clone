@@ -38,3 +38,8 @@ html {
 	cursor: pointer;
     color: #333333
 }
+.introduction .background-image{
+
+	background-repeat: no-repeat;
+	background-size: cover;
+}
