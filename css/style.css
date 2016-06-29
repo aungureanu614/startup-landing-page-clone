@@ -6,6 +6,7 @@ html {
   box-sizing: inherit;
 }
 
+
 .logo{
 	max-width: 2%;
 	display: inline-block;
@@ -80,4 +81,28 @@ button{
 button:hover{
 	background-color:#E82B0A;
 	cursor: pointer;
+}
+
+.content h1{
+	padding-top: 10rem; 
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 2.5rem;
+}
+
+.devices li{
+	max-width: 80%;
+	display: inline-block;
+	margin-left: 12rem;
+	margin-right: 12rem;
+}
+.devices .caption{
+	font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+}
+.devices li img{
+	max-width: 50%;
+	padding-top: 2rem;
+
 }
