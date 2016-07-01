@@ -1,6 +1,23 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @aungureanu614
+ Unwatch 1
+  Star 0
+ Fork 0 aungureanu614/startup-landing-page-clone
+ Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs  Settings
+Branch: gh-pages Find file Copy pathstartup-landing-page-clone/css/style.css
+39edeb0  an hour ago
+@aungureanu614 aungureanu614 Update style.css
+1 contributor
+RawBlameHistory     145 lines (127 sloc)  1.99 KB
 
 html {
   box-sizing: border-box;
+  font-size: 62.5%;
   font-family: 'Roboto', sans-serif;
 }
 *, *:before, *:after {
@@ -9,11 +26,11 @@ html {
 
 
 .logo{
-	max-width: 2%;
+	max-width: 1.5%;
 	display: inline-block;
 	margin-left: 20%;
-	margin-top: 1rem;
-	
+	margin-top: .5rem;
+	margin-bottom: .5rem;	
 }
 
 .nav-links > li{
@@ -24,8 +41,7 @@ html {
 .nav-links li a{
 	text-decoration: none;
 	color: #666046;
-	font-family: 'Roboto', sans-serif;
-	
+	font-size: 1.5rem;
 }
 .nav-links{
 	float: right;
@@ -35,7 +51,7 @@ html {
 	background-color: #fff;
 }
 .nav-links .active{
-	 color: black;
+	color: #000;
     font-weight: 500;
 }
 .content .nav-links li a:hover{
@@ -46,67 +62,101 @@ html {
 	background-image: url('../images/first-background copy.jpg');
 	background-size: cover;	
 	background-repeat: no-repeat;
-	height:50rem;
+	height:70rem;
 	background-position: center;
-	
-
-
+	padding-top: 10%;
 }
 .center{
 	text-align: center;
 }
 .introduction h1{
-	padding-top: 18rem;
-	font-size: 3rem;
 	
-	
+	font-size: 5rem;	
 }
 .introduction h2{
 	
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 	margin-top: -1.25rem;
 }
 .intro-style{
 	color: #fff;
-	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 }
-button{
+.learn-more{
 	background-color: #F15A29;
-	color: white;
-	border-radius: .25rem;
+	color: #fff;
+	border-radius: .5rem;
 	border-style: none;
 	border-color: #F15A29;
-	padding: 1rem 1.5rem;
-	font-size: 1.25rem;
+	padding: 1.5rem 1.5rem;
+	font-size: 2rem;
 }
-button:hover{
+.learn-more:hover{
 	background-color:#E82B0A;
 	cursor: pointer;
 }
 
-.content h1{
-	padding-top: 5rem; 
-	font-family: 'Roboto', sans-serif;
+
+.description h1{
+	padding-top: 10rem; 
 	font-weight: 300;
-	font-size: 2.5rem;
+	font-size: 4rem;
+   
 }
-.devices li{
-	max-width: 80%;
+.devices-list{
+	overflow: auto;
+}
+
+.devices-list li{
+	width: 15rem;
+	float: left;
+	margin-left: 20%;
+	margin-top: 4rem;
+	display: inherit;
+	
+}
+.caption{
+	width: 30rem;
+	font-size: 2rem;
+	position: relative;
+	right: 20%;	
+
+}
+.social-media{
+	margin-top: 6rem;
+	text-align: center;
+
+}
+.social-media p{
+	font-size: 1.5rem;
+}
+.social-media .icons li{
 	display: inline-block;
-	margin-left: 8rem;
-	margin-right: 5rem;
 }
-.devices .caption{
-	font-weight: 400;
-    font-size: 1.563rem;
-    margin: 2.5rem 0px 1.875rem;
+.icons li:hover{
+	cursor: pointer;
 }
-.devices li img{
-	max-width: 50%;
-	padding-top: 2rem;
-	margin-right: 1rem;
-	display: inline;
+.icons li{
+	border-radius: 3.25rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 1.5rem 0;
+    text-align: center;
+    
+	
+}
+.fa-twitter{
+	color: #17A5FF;
 
 }
-
+.fa-facebook{
+	color: #0008FF
+}
+.fa-instagram{
+	color: #3C9F97;
+}
+Status API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
